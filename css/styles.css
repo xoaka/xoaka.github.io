@@ -11443,3 +11443,27 @@ header.masthead h1, header.masthead .h1 {
 #portfolio .container-fluid .portfolio-box:hover .portfolio-box-caption, #portfolio .container-sm .portfolio-box:hover .portfolio-box-caption, #portfolio .container-md .portfolio-box:hover .portfolio-box-caption, #portfolio .container-lg .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xl .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xxl .portfolio-box:hover .portfolio-box-caption {
   opacity: 1;
 }
+
+.hidemenu{
+  display:none;
+  width:0;
+  height:0;
+  overflow:hidden;
+}
+#topButton{
+  background-color:rgba(50,50,50,0.5);
+  color:#fff;
+  bottom:20px;
+  right:20px;
+  z-index:99;
+  font-size:30px;
+  border-radius:5px;
+  outline:none;
+  cursor:pointer;
+  padding:10px 15px 0;
+  position:fixed;
+}
+#topButton:hover{
+  background-color:rgba(200,200,200,0.5);
+  color:#222;
+}
