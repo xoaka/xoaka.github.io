@@ -57,3 +57,18 @@ window.addEventListener('DOMContentLoaded', event => {
     });
 
 });
+
+var topButton=document.getElementById("topButton");
+function backToTopButton(){
+    if(document.documentElement.scrollTop >= 600){
+        topButton.classList.remove("hidemenu");
+    }else{
+        topButton.classList.add("hidemenu");
+    }
+}
+window.onscroll=function(){
+    backToTopButton();
+};
+topButton.onclick=function(){
+    document.documentElement.scrollTop=0;
+};
